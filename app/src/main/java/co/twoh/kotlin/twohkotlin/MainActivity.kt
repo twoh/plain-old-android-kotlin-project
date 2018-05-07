@@ -1,5 +1,6 @@
 package co.twoh.kotlin.twohkotlin
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
      */
     private lateinit var button2: Button
 
-
+    private lateinit var button3: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +34,8 @@ class MainActivity : AppCompatActivity() {
          */
         button2 = findViewById(R.id.bt_2)
 
+        button3 = findViewById(R.id.bt_3)
+
         /**
          * setOnClickListener kemungkinan variable null
          */
@@ -46,5 +49,11 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener{
             Toast.makeText(this, "Clicked "+button2.text, Toast.LENGTH_LONG).show()
         }
+
+        button3.setOnClickListener{
+            startActivity(Intent(this,TWOHActivity2::class.java))
+        }
+
+
     }
 }

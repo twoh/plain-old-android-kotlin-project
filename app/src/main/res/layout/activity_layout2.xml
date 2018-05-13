@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
 
     <TextView
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
         android:text="Anda di Halaman 2 (activity_layout2.xml)"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
 </android.support.v7.widget.LinearLayoutCompat>

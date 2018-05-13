@@ -40,18 +40,18 @@ class MainActivity : AppCompatActivity() {
          * setOnClickListener kemungkinan variable null
          */
         button1?.setOnClickListener {
-            Toast.makeText(this, "Clicked "+button1?.text, Toast.LENGTH_LONG).show()
+            startActivity(TWOHKotlinButton.newIntent(this))
         }
 
         /**
          * setOnClickListener variable tidak mungkin null
          */
         button2.setOnClickListener{
-            Toast.makeText(this, "Clicked "+button2.text, Toast.LENGTH_LONG).show()
+            startActivity(TWOHKotlinActivity.newIntent(this))
         }
 
         button3.setOnClickListener{
-            startActivity(Intent(this,TWOHActivity2::class.java))
+            startActivity(TWOHKotlinActivity3.newIntent(this))
         }
 
 

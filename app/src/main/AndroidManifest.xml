@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TWOHActivity2"/>
-        <activity android:name=".TWOHActivity3"/>
+        <activity android:name=".TWOHKotlinActivity2"/>
+        <activity android:name=".TWOHKotlinActivity3"/>
+        <activity android:name=".TWOHKotlinActivity"/>
+        <activity android:name=".TWOHKotlinButton"/>
     </application>
 
 </manifest>

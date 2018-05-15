@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".TWOHKotlinActivity2"/>
         <activity android:name=".TWOHKotlinActivity3"/>
+        <activity android:name=".TWOHKotlinActivity4"/>
         <activity android:name=".TWOHKotlinActivity"/>
         <activity android:name=".TWOHKotlinButton"/>
     </application>

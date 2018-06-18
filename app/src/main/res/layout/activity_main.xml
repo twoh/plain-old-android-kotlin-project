@@ -39,5 +39,17 @@
         android:layout_below="@id/bt_2"
         android:text="Activity Intent Basic"/>
 
+    <Button
+        android:id="@+id/bt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_3"
+        android:text="Kotlin If-Then"/>
 
+    <Button
+        android:id="@+id/bt_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_4"
+        android:text="Kotlin Looping"/>
 </RelativeLayout>
